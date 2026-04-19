@@ -9,8 +9,8 @@ import * as __fd_glob_7 from "../content/docs/contract/gas-station.mdx?collectio
 import * as __fd_glob_6 from "../content/docs/architecture/security-model.mdx?collection=docs"
 import * as __fd_glob_5 from "../content/docs/architecture/overview.mdx?collection=docs"
 import * as __fd_glob_4 from "../content/docs/architecture/authentication.mdx?collection=docs"
-import { default as __fd_glob_3 } from "../content/docs/extension/meta.json?collection=docs"
-import { default as __fd_glob_2 } from "../content/docs/contract/meta.json?collection=docs"
+import { default as __fd_glob_3 } from "../content/docs/contract/meta.json?collection=docs"
+import { default as __fd_glob_2 } from "../content/docs/extension/meta.json?collection=docs"
 import { default as __fd_glob_1 } from "../content/docs/architecture/meta.json?collection=docs"
 import { default as __fd_glob_0 } from "../content/docs/meta.json?collection=docs"
 import { server } from 'fumadocs-mdx/runtime/server';
@@ -21,4 +21,4 @@ const create = server<typeof Config, import("fumadocs-mdx/runtime/types").Intern
   }
 }>({"doc":{"passthroughs":["extractedReferences"]}});
 
-export const docs = await create.docs("docs", "content/docs", {"meta.json": __fd_glob_0, "architecture/meta.json": __fd_glob_1, "contract/meta.json": __fd_glob_2, "extension/meta.json": __fd_glob_3, }, {"architecture/authentication.mdx": __fd_glob_4, "architecture/overview.mdx": __fd_glob_5, "architecture/security-model.mdx": __fd_glob_6, "contract/gas-station.mdx": __fd_glob_7, "contract/overview.mdx": __fd_glob_8, "contract/recovery-module.mdx": __fd_glob_9, "extension/background.mdx": __fd_glob_10, "extension/crypto-engine.mdx": __fd_glob_11, "extension/overview.mdx": __fd_glob_12, "extension/walrus.mdx": __fd_glob_13, });
+export const docs = await create.docs("docs", "content/docs", {"meta.json": __fd_glob_0, "architecture/meta.json": __fd_glob_1, "extension/meta.json": __fd_glob_2, "contract/meta.json": __fd_glob_3, }, {"architecture/authentication.mdx": __fd_glob_4, "architecture/overview.mdx": __fd_glob_5, "architecture/security-model.mdx": __fd_glob_6, "contract/gas-station.mdx": __fd_glob_7, "contract/overview.mdx": __fd_glob_8, "contract/recovery-module.mdx": __fd_glob_9, "extension/background.mdx": __fd_glob_10, "extension/crypto-engine.mdx": __fd_glob_11, "extension/overview.mdx": __fd_glob_12, "extension/walrus.mdx": __fd_glob_13, });
